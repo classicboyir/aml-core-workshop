@@ -1,0 +1,103 @@
+2023-03-07 16:39:42.233 - INFO - 33272 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2023-03-07 16:39:42.254 - INFO - 33272 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2023-03-07 16:39:42.274 - INFO - 33272 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2023-03-07 16:39:42.436 - INFO - 33272 - azureml.train.automl.run._log_activity:89 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=162.31[ms]
+2023-03-07 16:39:42.504 - INFO - 33272 - azureml.train.automl.run._log_activity:89 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=249.94[ms]
+2023-03-07 16:39:42.504 - INFO - 33272 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2023-03-07 16:39:50.886 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping enabled: False
+2023-03-07 16:39:50.888 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer.__init__:191 - Feature sweeping timeout: 86400
+2023-03-07 16:39:53.976 - INFO - 33272 - azureml.train.automl._model_download_utilities._log_activity:89 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=11471.93[ms]
+2023-03-07 16:39:53.998 - INFO - 33272 - azureml.train.automl.run._log_activity:89 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=11765.25[ms]
+2023-03-07 16:39:58.549 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:550 - Starting to apply transforms. Total ram: 29439320064 bytes
+2023-03-07 16:39:58.565 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15982673920 bytes
+2023-03-07 16:39:58.565 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.587 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.588 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957508096 bytes
+2023-03-07 16:39:58.588 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.590 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.590 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957508096 bytes
+2023-03-07 16:39:58.590 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.592 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.592 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957508096 bytes
+2023-03-07 16:39:58.593 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.594 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.595 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957508096 bytes
+2023-03-07 16:39:58.595 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.606 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.607 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957508096 bytes
+2023-03-07 16:39:58.607 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.609 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.609 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957508096 bytes
+2023-03-07 16:39:58.610 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.611 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.612 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.612 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.622 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.622 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.623 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.624 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.625 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.625 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.627 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.627 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.628 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.629 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.630 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.630 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.632 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.632 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.632 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.634 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.635 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.635 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.636 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.637 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.637 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.639 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.639 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.639 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.641 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.641 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.642 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.644 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.644 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.644 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.646 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.646 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.646 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.648 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.649 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.649 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.650 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.651 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.651 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.653 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.653 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.653 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.655 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.655 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.655 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.657 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.667 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.667 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.677 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.678 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.678 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.680 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.680 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.680 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.682 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.682 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.682 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.684 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.684 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.685 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.686 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.687 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.687 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.689 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.689 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 15957250048 bytes
+2023-03-07 16:39:58.689 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-03-07 16:39:58.691 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (56946, 1)
+2023-03-07 16:39:58.691 - INFO - 33272 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:595 - Finished applying transforms
+2023-03-07 16:39:58.692 - INFO - 33272 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:205 - Total ram: 29439320064 bytes, Current Available memory: 15957250048 bytes. Low memory threshold: 0.5
